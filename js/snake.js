@@ -84,9 +84,6 @@ var timer = setInterval(function() {
     snakeMove();
     detectCollsion();
     eatFood();
-    
-    console.log(snakeBody.length);
-    console.log(speed);
 }, speed)
 
 document.onkeydown = function(e){			//按键事件
