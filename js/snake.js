@@ -98,3 +98,7 @@ document.onkeydown = function(e){			//按键事件
 	else if(key===40 && direction!=='up') direction = 'down';
 	console.log(direction);
 }
+
+function turnToPage(){
+	window.location.href='lrqcopy.html';
+}

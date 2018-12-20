@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<link rel = "Shortcut Icon" href=./img/snake.ico>
+	<title>瑞卿抄的诗一样的代码的贪吃蛇</title>
+	<style>
+		#canvas{
+			box-shadow: 0 5px 40px green;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -250px;
+			margin-left: -400px; 
+		}
+        ._button{
+            margin-top: 50px;
+            text-align: center;
+        }
+	</style>
+</head>
+<body>
+	<canvas id="canvas" width="800" height="500">
+		你的浏览器不支持canvas，请换一个高级的浏览器。
+	</canvas>
+
+    <div class="_button" >
+        <input type="button" style="background:url('./img/button.png')" value="速度慢的贪吃蛇" onclick="turnToPage()" >
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="./js/lrqcopy.js"></script>
